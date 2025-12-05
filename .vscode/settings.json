@@ -1,0 +1,35 @@
+{
+    "psi-header.variables": [
+        [
+            "projectname",
+            "advent-of-code"
+        ],
+    ],
+    "psi-header.templates": [
+        {
+            "language": "python",
+            "template": [
+                "File: <<filename>>",
+                "Project: <<projectname>>",
+                "File Created: <<filecreated('dddd, Do MMMM YYYY h:mm:ss a')>>",
+                "Author: <<author>> (<<authoremail>>)",
+                "-----",
+                "Last Modified: <<dateformat('dddd, Do MMMM YYYY h:mm:ss a')>>",
+                "Modified By: <<author>> (<<authoremail>>>)",
+                "-----",
+                "HISTORY:",
+                "Date      \tBy\tComments",
+                "----------\t---\t---------------------------------------------------------"
+            ],
+            "changeLogCaption": "HISTORY",
+            "changeLogHeaderLineCount": 2,
+            "changeLogEntryTemplate": [
+                "",
+                "<<dateformat('DD-MM-YYYY')>>\t<<initials>>\t"
+            ],
+            "changeLogNaturalOrder": false,
+            "changeLogFooterLineCount": 0,
+            "blankLinesAfter": 1
+        }
+    ],
+}

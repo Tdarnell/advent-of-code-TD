@@ -6,7 +6,7 @@ Project: advent-of-code
 File Created: Tuesday, 2nd December 2025 9:49:46 pm
 Author: tdarnell (tdarnell@users.noreply.github.com)
 -----
-Last Modified: Tuesday, 2nd December 2025 11:04:14 pm
+Last Modified: Friday, 5th December 2025 9:56:58 pm
 Modified By: tdarnell (tdarnell@users.noreply.github.com>)
 -----
 HISTORY:
@@ -19,9 +19,11 @@ from pathlib import Path
 import time
 
 
-def set_up_logger(day: int, folder: Path | None = None) -> logging.Logger:
+def set_up_logger(
+    day: int, folder: Path | None = None, level=logging.INFO
+) -> logging.Logger:
     LOGGER: logging.Logger = logging.getLogger(f"day{day:02d}")
-    LOGGER.setLevel(logging.INFO)
+    LOGGER.setLevel(level)
     # Create a file handler
     file_handler = logging.FileHandler(
         Path(folder) / f"day{day:02d}.log"
