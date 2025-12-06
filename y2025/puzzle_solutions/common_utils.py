@@ -6,7 +6,7 @@ Project: advent-of-code
 File Created: Tuesday, 2nd December 2025 9:49:46 pm
 Author: tdarnell (tdarnell@users.noreply.github.com)
 -----
-Last Modified: Friday, 5th December 2025 9:56:58 pm
+Last Modified: Saturday, 6th December 2025 2:19:43 pm
 Modified By: tdarnell (tdarnell@users.noreply.github.com>)
 -----
 HISTORY:
@@ -72,7 +72,7 @@ def read_day_input(day: int, folder: Path | None = None) -> str:
     if not input_file.exists():
         raise FileNotFoundError(f"Input file {input_file} not found.")
     with open(input_file, "r") as f:
-        return f.read().strip()
+        return f.read()  # .strip()
 
 
 def log_execution_time(func=None, *, logger=None):
