@@ -6,7 +6,7 @@ Project: Advent of Code
 File Created: Tuesday, 2nd December 2025 8:56:45 pm
 Author: tdarnell (tdarnell@users.noreply.github.com)
 -----
-Last Modified: Tuesday, 2nd December 2025 9:04:52 pm
+Last Modified: Saturday, 6th December 2025 2:37:48 pm
 Modified By: tdarnell (tdarnell@users.noreply.github.com>)
 -----
 HISTORY:
@@ -50,7 +50,7 @@ LOGGER.addHandler(stream_handler)
 
 
 class PuzzleScraper:
-    def __init__(self, year: int, day: int):
+    def __init__(self, year: int, day: int, base_folder: Path | None = None):
         self.year = year
         self.day = day
         # check that the adventofcode cookies exist in the cookie jar
@@ -64,8 +64,9 @@ class PuzzleScraper:
             )
         self.puzzle_page_url = f"https://adventofcode.com/{year}/day/{day}"
         self.puzzle_input_url = f"https://adventofcode.com/{year}/day/{day}/input"
-        self.puzzle_page_file = Path(f"inputs/day{day:02d}.html")
-        self.puzzle_input_file = Path(f"inputs/day{day:02d}.txt")
+        self.base_folder = base_folder or Path(__file__).resolve().parent
+        self.puzzle_page_file = self.base_folder / f"inputs/day{day:02d}.html"
+        self.puzzle_input_file = self.base_folder / f"inputs/day{day:02d}.txt"
         if not self.puzzle_page_file.parent.exists():
             self.puzzle_page_file.parent.mkdir(parents=True)
         if not self.puzzle_input_file.parent.exists():

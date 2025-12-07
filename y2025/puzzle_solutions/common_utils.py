@@ -6,7 +6,7 @@ Project: advent-of-code
 File Created: Tuesday, 2nd December 2025 9:49:46 pm
 Author: tdarnell (tdarnell@users.noreply.github.com)
 -----
-Last Modified: Saturday, 6th December 2025 2:19:43 pm
+Last Modified: Saturday, 6th December 2025 2:43:53 pm
 Modified By: tdarnell (tdarnell@users.noreply.github.com>)
 -----
 HISTORY:
@@ -22,6 +22,23 @@ import time
 def set_up_logger(
     day: int, folder: Path | None = None, level=logging.INFO
 ) -> logging.Logger:
+    """
+    Set up a logger for the given day with some standardised handlers.
+
+    Parameters
+    ----------
+    day : int
+        The day number.
+    folder : Path | None, optional
+        The folder to save the log file in. If None, defaults to ./logs
+    level : _type_, optional
+        The logging level, by default logging.INFO
+
+    Returns
+    -------
+    logging.Logger
+        The configured logger.
+    """
     LOGGER: logging.Logger = logging.getLogger(f"day{day:02d}")
     LOGGER.setLevel(level)
     # Create a file handler

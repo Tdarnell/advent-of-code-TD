@@ -1,76 +1,16 @@
-2025-12-06 11:33:15,529 - __main__ - INFO - Input file inputs/day01.txt does not exist.
-2025-12-06 11:33:16,143 - __main__ - INFO - Scraped puzzle input for day 1: R17
-R28
-R8
-L25
-R33
-L48
-R2
-R42
-R39
-L10
-R29
-L26
-R24
-...
-2025-12-06 11:33:16,143 - __main__ - INFO - HTML file inputs/day01.html does not exist.
-2025-12-06 11:33:16,654 - __main__ - INFO - Scraped puzzle page for day 1: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 11:33:16,660 - __main__ - INFO - Input file inputs/day02.txt does not exist.
-2025-12-06 11:33:17,013 - __main__ - INFO - Scraped puzzle input for day 2: 503950-597501,73731-100184,79705998-79873916,2927-...
-2025-12-06 11:33:17,013 - __main__ - INFO - HTML file inputs/day02.html does not exist.
-2025-12-06 11:33:17,370 - __main__ - INFO - Scraped puzzle page for day 2: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 11:33:17,375 - __main__ - INFO - Input file inputs/day03.txt does not exist.
-2025-12-06 11:33:17,782 - __main__ - INFO - Scraped puzzle input for day 3: 32233232324233421333213233211333252222333423323233...
-2025-12-06 11:33:17,782 - __main__ - INFO - HTML file inputs/day03.html does not exist.
-2025-12-06 11:33:18,207 - __main__ - INFO - Scraped puzzle page for day 3: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 11:33:18,211 - __main__ - INFO - Input file inputs/day04.txt does not exist.
-2025-12-06 11:33:18,704 - __main__ - INFO - Scraped puzzle input for day 4: @@@..@@.@.@@@..@...@@@@.@.@@@..@@.@@@@...@@@@@.@@@...
-2025-12-06 11:33:18,704 - __main__ - INFO - HTML file inputs/day04.html does not exist.
-2025-12-06 11:33:19,226 - __main__ - INFO - Scraped puzzle page for day 4: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 11:33:19,231 - __main__ - INFO - Input file inputs/day05.txt does not exist.
-2025-12-06 11:33:19,728 - __main__ - INFO - Scraped puzzle input for day 5: 213743501161200-213743501161200
-221359789392478-22...
-2025-12-06 11:33:19,728 - __main__ - INFO - HTML file inputs/day05.html does not exist.
-2025-12-06 11:33:20,253 - __main__ - INFO - Scraped puzzle page for day 5: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 11:33:20,258 - __main__ - INFO - Input file inputs/day06.txt does not exist.
-2025-12-06 11:33:20,751 - __main__ - INFO - Scraped puzzle input for day 6: 63  39  846  99 89 5143 68 241 629  68 419 279 399...
-2025-12-06 11:33:20,752 - __main__ - INFO - HTML file inputs/day06.html does not exist.
-2025-12-06 11:33:21,263 - __main__ - INFO - Scraped puzzle page for day 6: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:07:58,112 - __main__ - INFO - Input file inputs/day01.txt does not exist.
-2025-12-06 14:07:58,697 - __main__ - INFO - Scraped puzzle input for day 1: R17
-R28
-R8
-L25
-R33
-L48
-R2
-R42
-R39
-L10
-R29
-L26
-R24
-...
-2025-12-06 14:07:58,698 - __main__ - INFO - HTML file inputs/day01.html does not exist.
-2025-12-06 14:07:59,066 - __main__ - INFO - Scraped puzzle page for day 1: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:07:59,071 - __main__ - INFO - Input file inputs/day02.txt does not exist.
-2025-12-06 14:07:59,526 - __main__ - INFO - Scraped puzzle input for day 2: 503950-597501,73731-100184,79705998-79873916,2927-...
-2025-12-06 14:07:59,527 - __main__ - INFO - HTML file inputs/day02.html does not exist.
-2025-12-06 14:07:59,948 - __main__ - INFO - Scraped puzzle page for day 2: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:07:59,954 - __main__ - INFO - Input file inputs/day03.txt does not exist.
-2025-12-06 14:08:00,341 - __main__ - INFO - Scraped puzzle input for day 3: 32233232324233421333213233211333252222333423323233...
-2025-12-06 14:08:00,342 - __main__ - INFO - HTML file inputs/day03.html does not exist.
-2025-12-06 14:08:00,746 - __main__ - INFO - Scraped puzzle page for day 3: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:08:00,752 - __main__ - INFO - Input file inputs/day04.txt does not exist.
-2025-12-06 14:08:01,165 - __main__ - INFO - Scraped puzzle input for day 4: @@@..@@.@.@@@..@...@@@@.@.@@@..@@.@@@@...@@@@@.@@@...
-2025-12-06 14:08:01,165 - __main__ - INFO - HTML file inputs/day04.html does not exist.
-2025-12-06 14:08:01,674 - __main__ - INFO - Scraped puzzle page for day 4: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:08:01,679 - __main__ - INFO - Input file inputs/day05.txt does not exist.
-2025-12-06 14:08:02,088 - __main__ - INFO - Scraped puzzle input for day 5: 213743501161200-213743501161200
-221359789392478-22...
-2025-12-06 14:08:02,089 - __main__ - INFO - HTML file inputs/day05.html does not exist.
-2025-12-06 14:08:02,568 - __main__ - INFO - Scraped puzzle page for day 5: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
-2025-12-06 14:08:02,573 - __main__ - INFO - Input file inputs/day06.txt does not exist.
-2025-12-06 14:08:02,999 - __main__ - INFO - Scraped puzzle input for day 6: 63  39  846  99 89 5143 68 241 629  68 419 279 399...
-2025-12-06 14:08:02,999 - __main__ - INFO - HTML file inputs/day06.html does not exist.
-2025-12-06 14:08:03,511 - __main__ - INFO - Scraped puzzle page for day 6: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...
+2025-12-07 19:37:16,283 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day01.txt already exists.
+2025-12-07 19:37:16,283 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day01.html already exists.
+2025-12-07 19:37:16,304 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day02.txt already exists.
+2025-12-07 19:37:16,304 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day02.html already exists.
+2025-12-07 19:37:16,332 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day03.txt already exists.
+2025-12-07 19:37:16,332 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day03.html already exists.
+2025-12-07 19:37:16,360 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day04.txt already exists.
+2025-12-07 19:37:16,361 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day04.html already exists.
+2025-12-07 19:37:16,388 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day05.txt already exists.
+2025-12-07 19:37:16,388 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day05.html already exists.
+2025-12-07 19:37:16,424 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day06.txt already exists.
+2025-12-07 19:37:16,424 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day06.html already exists.
+2025-12-07 19:37:16,458 - __main__ - INFO - Input file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day07.txt does not exist.
+2025-12-07 19:37:16,876 - __main__ - INFO - Scraped puzzle input for day 7: .....................................................
+2025-12-07 19:37:16,876 - __main__ - INFO - HTML file /home/tom/Code/github-tdarnell/advent-of-code-TD/y2025/inputs/day07.html does not exist.
+2025-12-07 19:37:17,381 - __main__ - INFO - Scraped puzzle page for day 7: b'<!DOCTYPE html>\n<html lang="en-us">\n<head>\n<m...

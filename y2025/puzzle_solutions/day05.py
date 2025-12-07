@@ -6,7 +6,7 @@ Project: advent-of-code
 File Created: Saturday, 6th December 2025 12:11:04 pm
 Author: tdarnell (tdarnell@users.noreply.github.com)
 -----
-Last Modified: Saturday, 6th December 2025 12:25:35 pm
+Last Modified: Saturday, 6th December 2025 2:47:07 pm
 Modified By: tdarnell (tdarnell@users.noreply.github.com>)
 -----
 HISTORY:
@@ -34,6 +34,40 @@ LOGGER: logging.Logger = set_up_logger(
 def day05_part1(
     input_str: str = "3-5\n10-14\n16-20\n12-18\n\n1\n5\n8\n11\n17\n32",
 ) -> int:
+    """
+    Determines the number of available ingredient IDs that are considered fresh based on provided fresh ID ranges.
+
+    The input consists of two sections separated by a blank line:
+    - The first section lists inclusive ranges of fresh ingredient IDs (e.g., "3-5").
+    - The second section lists available ingredient IDs, one per line.
+
+    An ingredient ID is considered fresh if it falls within any of the specified ranges (ranges may overlap).
+
+        The puzzle input containing fresh ID ranges and available ingredient IDs, separated by a blank line.
+        Example:
+            3-5
+            10-14
+            16-20
+            12-18
+
+            1
+            5
+            8
+            11
+            17
+            32
+
+    Parameters
+    ----------
+    input_str : str, optional
+        The puzzle input containing fresh ID ranges and available ingredient IDs, separated by a blank line.
+
+    Returns
+    -------
+    int
+        The number of available ingredient IDs that are fresh (i.e., fall within any of the fresh ID ranges).
+
+    """
     fresh_range, to_check = input_str.split("\n\n")
     fresh_stop_starts = [
         tuple(map(int, re.findall(r"\d+", line))) for line in fresh_range.splitlines()
@@ -61,6 +95,37 @@ def day05_part1(
 def day05_part2(
     input_str: str = "3-5\n10-14\n16-20\n12-18\n\n1\n5\n8\n11\n17\n32",
 ):
+    """
+    Determines the total number of unique ingredient IDs considered fresh based on provided fresh ID ranges, consolidating any overlapping ranges.
+
+    The input consists of two sections separated by a blank line:
+    - The first section lists inclusive ranges of fresh ingredient IDs (e.g., "3-5").
+    - The second section lists available ingredient IDs, one per line (ignored in this part).
+    An ingredient ID is considered fresh if it falls within any of the specified ranges (ranges may overlap). Overlapping ranges are merged before counting.
+
+    Example:
+        3-5
+        10-14
+        16-20
+        12-18
+        1
+        5
+        8
+        11
+        17
+        32
+    In this example, the fresh ingredient ID ranges consider a total of 14 unique ingredient IDs to be fresh.
+
+    Parameters
+    ----------
+    input_str : str, optional
+        The puzzle input containing fresh ID ranges and available ingredient IDs, separated by a blank line.
+
+    Returns
+    -------
+    int
+        The total number of unique ingredient IDs considered fresh (i.e., covered by any of the fresh ID ranges).
+    """
     # this part is really simple, I will do the same as above and subtract the start from the stop
     # then sum for each
     #
